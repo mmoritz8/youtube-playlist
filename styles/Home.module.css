@@ -73,11 +73,16 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  list-style: none;
+  padding: 0;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+}
+.grid img {
+  max-width: 100%;
 }
 
 .card {
